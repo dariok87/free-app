@@ -1,16 +1,12 @@
 import React from 'react';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import MainContent from './components/MainContent';
+import ToDoItem from './components/ToDoItem';
 
-function App() {
-  return (
-    <div>
-      <Header />
-      <MainContent />
-      <Footer />  
+const App = () => 
+    <div className="to-do-list">
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
+      <ToDoItem />
     </div>
-  )
-}
 
 export default App;
