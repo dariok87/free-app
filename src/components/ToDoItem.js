@@ -1,9 +1,12 @@
 import React from 'react';
 
-const ToDoItem = () => 
+function ToDoItem(props) {
+    return (
     <div className="to-do-item">
       <input type="checkbox" />
-      <p>Placeholder text here</p>
+      <p>{props.todo.text}</p>
     </div>
+  )
+}
 
 export default ToDoItem;
