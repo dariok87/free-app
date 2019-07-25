@@ -1,9 +1,9 @@
 import React from 'react';
 import ToDoItem from './components/ToDoItem';
-import todosData from './todosData';
+import toDosData from './ToDosData';
 
 function App() {
-  const todoItems = todosData.map(item => <ToDoItem key={item.id} item={item}/>)
+  const todoItems = toDosData.map(item => <ToDoItem key={item.id} item={item}/>)
 
     return (
 

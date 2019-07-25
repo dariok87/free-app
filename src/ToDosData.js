@@ -22,4 +22,4 @@ const toDosData = [
 
 ]
 
-export default toDosData;
+export default ToDosData;
