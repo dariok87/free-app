@@ -1,4 +1,4 @@
-const todoData = [
+const todosData = [
 	{
 		id: 1,
 		text: "Take out the trash",
@@ -18,7 +18,12 @@ const todoData = [
 		id: 4,
 		text: "Here you are",
 		completed: false
+	},
+	{
+		id: 5,
+		text: "Where are you?",
+		completed: true
 	}
 ]
 
-export default todoData;
+export default todosData;
