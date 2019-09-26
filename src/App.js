@@ -1,10 +1,10 @@
 import React from 'react';
 import TodoItem from './components/TodoItem';
-import todosData from './todosData';
+import todoData from './todoData';
 
 class App extends React.Component  {
   render() {
-  const todoItems = todosData.map(item => <TodoItem key={item.id} item={item} />)
+  const todoItems = todoData.map(item => <TodoItem key={item.id} item={item} />)
 
     return (
       <div className="to-do-list">
