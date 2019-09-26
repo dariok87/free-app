@@ -1,6 +1,6 @@
 import React from 'react';
 import TodoItem from './components/TodoItem';
-import todoData from './todoData';
+import todoData from './todosData';
 
 class App extends React.Component  {
   render() {
