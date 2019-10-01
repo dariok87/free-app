@@ -3,8 +3,15 @@ import TodoItem from './TodoItem';
 import todoData from './todoData';
 
 class App extends React.Component  {
+  constructor() {
+    super()
+    this.state = {
+      todo: todoData
+    }
+  }
+
   render() {
-  const todoItems = todoData.map(item => <TodoItem key={item.id} item={item} />)
+  const todoItems = this.state.todo.map(item => <TodoItem key={item.id} item={item} />)
 
     return (
       <div className="to-do-list">
