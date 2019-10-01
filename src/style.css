@@ -1,9 +1,9 @@
 body {
-	background-color: green;
+	background-color: white;
 }
 
 .to-do-list {
-	background-color: red;
+	background-color: grey;
 	margin: auto;
 	width: 100%;
 	display: flex;
@@ -15,6 +15,7 @@ body {
 
 .to-do-item {
 	display: flex;
+	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 	padding: 30px 20px 0px;
