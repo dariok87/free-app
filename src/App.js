@@ -18,7 +18,18 @@ class App extends React.Component  {
   }
 
   handleChange(id) {
-    //update state so that one item with the given id flips 'completed' from false to true. Do not modify prevState directly
+
   }
+
+  render() {
+    const todoItems = this.state.todo.map(item => <TodoItem key={item.id} item={item} />)
+
+    return (
+      <div className="to-do-list">
+        {todoItems}
+      </div>
+    )
+  }
+}
 
 export default App;
