@@ -14,7 +14,7 @@ function TodoItem(props) {
         checked={props.item.completed} 
         onChange={(event) => props.handleChange(props.item.id)}
       />
-      <p>{props.item.text}</p>
+      <p style={props.item.completed ? completedStyle: null}>{props.item.text}</p>
     </div>
   )
 }
