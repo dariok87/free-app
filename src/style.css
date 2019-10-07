@@ -3,7 +3,6 @@ body {
 }
 
 .to-do-list {
-	background-color: grey;
 	margin: auto;
 	width: 100%;
 	display: flex;
